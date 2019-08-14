@@ -1,0 +1,10 @@
+{% load i18n cookie_agreement %}
+<div id="cookie-policy-bar"{% if request.session.accepted_cookie_policy%}style="display: none;"{% endif %}>
+  <div id="cookie-policy-bar-content">
+    <div>
+      <p>
+        {% trans 'By using our site, you acknowledge that you have read and understand our' %} <a target="_blank" href="{% get_cookie_policy %}">Cookie Policy</a>, <a target="_blank" href="{% get_privacy_policy %}">{% trans 'Privacy Policy' %}</a>, {% trans 'and our' %} <a target="_blank" href="{% get_term_of_service %}">{% trans 'Terms of Service' %}</a>. <button id="accept-cookie-policy-button" onclick="cookieAgreedAJAXSubmit('{% url 'cookie_policy_accept'%}')">{% trans 'OK' %}</button>
+      </p>
+    </div>
+  </div>
+</div>

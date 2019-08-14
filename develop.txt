@@ -1,0 +1,8 @@
+# flake8 & jedi
+entrypoints==0.3
+flake8==3.7.8
+jedi==0.15.1
+mccabe==0.6.1
+parso==0.5.1
+pycodestyle==2.5.0
+pyflakes==2.1.1
