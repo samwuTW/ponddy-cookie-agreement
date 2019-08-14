@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 with open("README.md", "r") as fh:
@@ -21,7 +21,7 @@ setup(
     author='lambdaTW',
     author_email='lambda@lambda.tw',
     license='MIT',
-    packages=['cookie_policy'],
+    packages=find_packages(exclude=("tests*",)),
     install_requires=[
         'Django', 'djangorestframework',
     ],
