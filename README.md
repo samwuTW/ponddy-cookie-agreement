@@ -75,3 +75,13 @@ REST_FRAMEWORK = {
     }
 }
 ```
+If you do not want to limit user and your settings already have throttle rates please set `user` and `anon` to `None`
+```python
+REST_FRAMEWORK = {
+	'DEFAULT_THROTTLE_RATES': {
+        'your_other_scope': '100/day',
+        'user': None,
+        'anon': None,
+    }
+}
+```
