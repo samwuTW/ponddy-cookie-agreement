@@ -1,0 +1,2 @@
+include README.md
+recursive-include cookie_policy *.html *.css *.js *.po *.mo
