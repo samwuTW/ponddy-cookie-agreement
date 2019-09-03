@@ -1,5 +1,5 @@
 {% load i18n cookie_agreement %}
-<div class="cookie-policy" id="cookie-policy-bar">
+<div class="cookie-policy" id="cookie-policy-bar" {% if request.session.accepted_cookie_policy%}style="display: none;"{% endif %}>
     <div class="cp-row">
         <div class="cp-description">
             <p>
