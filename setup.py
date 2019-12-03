@@ -22,7 +22,7 @@ setup(
     author_email='lambda@lambda.tw',
     license='MIT',
     include_package_data=True,
-    packages=find_packages(exclude=("tests*",)),
+    packages=find_packages(exclude=("tests*", 'core')),
     install_requires=[
         'Django', 'djangorestframework',
     ],
