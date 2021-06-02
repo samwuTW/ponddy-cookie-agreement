@@ -58,16 +58,16 @@ six==1.15.0
     #   readme-renderer
 tqdm==4.59.0
     # via
-    #   -r requirements/deploy.in
+    #   -r deploy.in
     #   twine
 twine==3.4.1
-    # via -r requirements/deploy.in
-urllib3==1.26.4
+    # via -r deploy.in
+urllib3==1.26.5
     # via requests
 webencodings==0.5.1
     # via bleach
 wheel==0.36.2
-    # via -r requirements/deploy.in
+    # via -r deploy.in
 zipp==3.4.1
     # via importlib-metadata
 
