@@ -5,7 +5,7 @@
 #    pip-compile requirements/develop.in
 #
 autopep8==1.5.6
-    # via -r requirements/develop.in
+    # via -r develop.in
 flake8==3.9.0
     # via python-language-server
 jedi==0.17.2
@@ -25,10 +25,10 @@ pyflakes==2.3.0
 python-jsonrpc-server==0.4.0
     # via python-language-server
 python-language-server[flake8]==0.36.2
-    # via -r requirements/develop.in
+    # via -r develop.in
 toml==0.10.2
     # via autopep8
-ujson==4.0.2
+ujson==5.1.0
     # via
     #   python-jsonrpc-server
     #   python-language-server
