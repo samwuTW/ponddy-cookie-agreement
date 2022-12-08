@@ -6,7 +6,7 @@
 #
 bleach==3.3.0
     # via readme-renderer
-certifi==2020.12.5
+certifi==2022.12.7
     # via requests
 cffi==1.14.5
     # via cryptography
@@ -42,12 +42,12 @@ pyparsing==2.4.7
     # via packaging
 readme-renderer==29.0
     # via twine
-requests-toolbelt==0.9.1
-    # via twine
 requests==2.25.1
     # via
     #   requests-toolbelt
     #   twine
+requests-toolbelt==0.9.1
+    # via twine
 rfc3986==1.4.0
     # via twine
 secretstorage==3.3.1
@@ -58,16 +58,16 @@ six==1.15.0
     #   readme-renderer
 tqdm==4.59.0
     # via
-    #   -r requirements/deploy.in
+    #   -r deploy.in
     #   twine
 twine==3.4.1
-    # via -r requirements/deploy.in
+    # via -r deploy.in
 urllib3==1.26.4
     # via requests
 webencodings==0.5.1
     # via bleach
 wheel==0.36.2
-    # via -r requirements/deploy.in
+    # via -r deploy.in
 zipp==3.4.1
     # via importlib-metadata
 
